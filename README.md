@@ -30,7 +30,7 @@ Dataset de clientes de telecomunicaciones en formato Excel.
 
 El conjunto de datos contiene información demográfica, tipo de contrato, servicios contratados, cargos mensuales y valor estimado del cliente (CLTV).
 
-⚠ Columnas eliminadas por posible *data leakage*:
+Columnas eliminadas por posible *data leakage*:
 - `Churn Label`
 - `Churn Score`
 - `Churn Reason`
@@ -89,9 +89,5 @@ Sin embargo:
 - Un umbral muy bajo incrementa el número de clientes marcados como riesgo
 - Esto puede aumentar el costo de campañas de retención
 
-El siguiente paso ideal sería optimizar el umbral considerando:
-- Costo de campaña
-- Tasa de retención
-- Ingreso promedio por cliente
 
 ---
